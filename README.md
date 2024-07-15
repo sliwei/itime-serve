@@ -1,4 +1,7 @@
 # itime-serve
+
+[![deploy](https://github.com/sliwei/itime-serve/actions/workflows/action.yaml/badge.svg)](https://github.com/sliwei/itime-serve/actions/workflows/action.yaml)
+
 时光机服务端
 
 > 基于koa/ts/sequelize/mariadb/redis/swagger,node@18
