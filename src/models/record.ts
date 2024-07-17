@@ -34,8 +34,8 @@ Record.init(
     media: { type: DataTypes.STRING(2000), comment: '媒体' },
     address: { type: DataTypes.STRING(50), comment: '地址' },
     coordinates: { type: DataTypes.STRING(50), comment: '坐标' },
-    height: { type: DataTypes.INTEGER, comment: '身高' },
-    weight: { type: DataTypes.INTEGER, comment: '体重' },
+    height: { type: DataTypes.FLOAT, comment: '身高' },
+    weight: { type: DataTypes.FLOAT, comment: '体重' },
     etime: {
       type: DataTypes.DATE,
       allowNull: false,
